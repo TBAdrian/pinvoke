@@ -13,7 +13,7 @@ The dll file in `libs` is a fake implementation of the dlls we get from our coll
 # Tasks
 
 ## 1. Load Library and Methods
-* [Task] Load the dll and both mentioned methods using PInvoke. Do not use the `[DllImport]` attribute for loading this library.
+* [Task] Load the dll and both mentioned methods using PInvoke. Do not use the `[DllImport]` attribute for loading this library. An article about this can be found [here](https://docs.microsoft.com/en-us/archive/blogs/jonathanswift/dynamically-calling-an-unmanaged-dll-from-net-c).
 * [Question] Why don't we use the [DllImport] method for these libraries?
 
 ## 2. Get key data
